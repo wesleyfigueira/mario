@@ -141,7 +141,7 @@ async function declareWinner(character1, character2) {
 
     if(character1.PONTOS > character2.PONTOS){
         console.log(`\n${character1.NOME} Venceu a Corrida! Prabéns ${character1.NOME}`)
-    }else if(character1.PONTOS > character2.PONTOS){
+    }else if(character2.PONTOS > character1.PONTOS){
         console.log(`\n${character2.NOME} Venceu a Corrida! Prabéns ${character2.NOME}`)
     }else{
         console.log("Corrida Terminou em Empate")
